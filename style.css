@@ -1,0 +1,785 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 100px;
+    background-color: tomato;
+    align-items: center;
+    margin-left: 200px;
+    gap: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a{
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C {
+    margin-right: 350px;
+}
+
+.navbar .F{
+    color: black;
+}
+.navbar .P{
+    color: black;
+}
+.navbar .S{
+    color: black;
+}
+.navbar .Pl{
+    color: black;
+}
+
+.F:hover{
+    color: white;
+}
+.P:hover{
+    color: white;
+}
+.S:hover{
+    color: white;
+}
+.Pl:hover{
+    color: white;
+}
+
+.AccIcon{
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+}
+
+.AccountIconBild{
+    width: 50px;
+    height: 50px;
+}
+
+.AccountIconBild:hover{
+    background-color: tomato;
+}
+
+#kaufpopup{
+    height: 750px;
+    width: 800px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 18px;
+    position: fixed;
+    z-index: 999;
+
+    display: none;
+}
+
+#kaufpopup button{
+    margin-left: 230px;
+    padding: 10px;
+    width: 25%;
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+}
+
+#kaufpopup button:hover{
+    color: tomato;
+    background-color: white;
+    border: tomato 2px solid;
+}
+
+#kaufpopup p{
+    margin-top: -25px;
+    color: black;
+    margin-left: 25px;
+}
+
+#Popup-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+    backdrop-filter: blur(3px);
+}
+  
+.Kaufbutton{
+    margin-left: 200px;
+    border-radius: 25px;
+    border: none;
+}
+
+.uesl{
+    text-align: center;
+  }
+  
+.SignUp{
+    border: black solid 1px;
+    width: 600px;
+    height: 700px;
+    margin-left: 100px;
+  }
+  
+  .usernamE{
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+    margin-left: 150px;
+  }
+  
+  .emaiL{
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+    margin-left: 150px;
+  }
+  
+  .psswrD{
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+    margin-left: 150px;
+  }
+  
+  .cfmpswD{
+    border-radius: 5px;
+    height: 35px;
+    width: 300px;
+    margin-left: 150px;
+  }
+  
+  .suB{
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    width: 300px;
+    height: 40px;
+    align-items: center;
+  }
+  
+  .hr{
+    color: whitesmoke;
+  }
+  
+  .googleIcon{
+    width: 25px;
+    height: 25px;
+    margin-right: 240px;
+    margin-top: 0px;
+  }
+  
+  .liwgoogle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    text-align: center;
+    margin-top: -100px;
+  }
+  
+  .loginWitGoogle{
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+  }
+
+.back{
+    margin-top: 75px;
+}
+
+.MainBox{
+    margin-left: 300px;
+    border: blue 1px solid;
+    width: 1300px;
+    height: 3000px;
+    content: "";
+    clear: both;
+    display: table;
+    background-color: whitesmoke;
+}
+
+.HGbild{
+    height: 700px;
+    width: 1300px;
+}
+
+.unterSch{
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 1300px;
+    height: 90px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-family: "Ephesis", serif;
+    font-style: normal;
+}
+
+.ephesis-regular {
+    font-family: "Ephesis", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.nebenBox{
+    width: 500px;
+    text-align: center;
+    margin-left: 750px;
+    margin-top: -450px;
+}
+
+.nbButtons{
+    margin-top: 20px;
+}
+
+.jbButton{
+    color: tomato;
+    border: tomato 3px solid;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.meButton2{
+    color: tomato;
+    border: tomato 3px solid;
+    background-color: white;
+    width: 150px;
+    height: 40px;  
+}
+
+.meButton{
+    color: blue;
+    border: blue 3px solid;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+.jbButton:hover{
+    color: white;
+    background-color: tomato;
+    border: black 1px solid;
+}
+
+.meButton2:hover{
+    color: white;
+    background-color: tomato;
+    border: black 1px solid;
+}
+
+.meButton:hover{
+    color: white;
+    background-color: blue;
+}
+
+.firstText{
+    margin-top: 400px;
+    width: 600px;
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.Erde{
+    margin-left: 750px;
+    margin-top: -300px;
+    position: relative;
+
+    border-radius: 8em; -moz-border-radius: 8em; -webkit-border-radius: 8em; overflow:hidden;
+}
+
+.MehrLesen{
+    color: black;
+    margin-left: 50px;
+}
+
+.MehrLesen:hover{
+    color: blue;
+}
+
+.Reiseortee{
+    font-family: "Protest Strike", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Protest Strike", serif;
+    -webkit-text-stroke: 1px blue;
+    font-size: 57px
+}
+
+.line{
+    color: black;
+    margin-top: 40px;
+    width: 900px;
+    margin-left: 200px;
+}
+
+.which{
+    text-align: center;
+    margin-top: 35px;
+
+    font-family: "Protest Strike", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 1px tomato;
+    font-size: 57px
+}
+
+/* Orte/Kontinente cards */
+
+.kntbild{
+    height: 250px;
+    width: 320px;
+    border-radius: 1rem;
+}
+
+.hE1{
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+.MinTxt{
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+.Card{
+    border: black 2px solid;
+    padding: 5px;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 500px;
+    padding: 15px;
+
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 1rem;
+    margin-left: 80px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 40px;
+}
+
+.Reiseortee{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.entd{  /* europa entdecken button */
+border: black 2px solid;
+color: black;
+background-color: white;
+width: 150px;
+height: 40px;
+margin-top: 15px;
+margin-left: -170px;
+}
+
+.entd:hover{
+    color: white;
+    background-color: tomato;
+    border: black 1px solid;
+}
+
+.line2{
+    width: 900px;
+    color: black;
+    margin-left: 200px;
+}
+
+.unterSch2{
+    float: left;
+    margin-top: 30px;
+    font-family: "Protest Strike", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 1px blue;
+    font-size: 57px;
+}
+
+/* Reiseziele auf ein Blick */
+
+.firstText::first-letter{
+    font-size: 2rem;
+    color: blue; 
+}
+
+.middleM{
+    margin-top: 120px;
+    width: 1300px;
+    height: 450px;
+}
+
+.middleEast{
+    width: 1300px;
+    height: 450px;
+}
+
+.ZweiBilder{
+    height: 400px;
+    width: 600px;
+}
+
+.mittelMeerTxt{
+    margin-left: 600px;
+    margin-top: -200px;
+    padding: 10px;
+}
+
+.mmeeButton{
+    color: blue;
+    background-color: white;
+    border: blue 3px solid;
+    width: 150px;
+    height: 40px;
+    margin-left: 610px;
+    margin-top: 14px;
+}
+
+.mmeeButton:hover{
+    color: white;
+    background-color: blue;
+}
+
+.ZweiBilder2{
+    height: 400px;
+    width: 600px;
+    margin-left: 700px;
+}
+
+.EastTxt{
+    padding: 10px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.EastTxtB{
+    width: 600px;
+    height: 400px;
+    margin-top: -244px;
+}
+
+.content{
+    margin-top: 3050px;
+    margin-left: 1000px;
+    height: 405px;
+    width: 600px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(red, green, blue, alpha);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover{
+    opacity: 1;
+  
+}
+
+.content p{
+    font-weight: 1000;
+    color: white;
+    font-size: 55px;
+}
+
+.content2{
+    margin-top: 2600px;
+    margin-left: 300px;
+    height: 405px;
+    width: 600px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(red, green, blue, alpha);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content2:hover{
+    opacity: 1;
+  
+}
+
+.content2 p{
+    font-weight: 1000;
+    color: white;
+    font-size: 55px;
+}
+
+.footer1{
+    width: 1500px;
+    height: 300px;
+    background-color: tomato;
+    margin-left: 200px;
+    justify-content: center;
+    gap: 40px;
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer2{
+    width: 1500px;
+    height: 300px;
+    background-color: tomato;
+    margin-left: 200px;
+    justify-content: center;
+    gap: 40px;
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Imp{
+    font-size: 25px;
+}
+
+.agb{
+    font-size: 25px;
+}
+
+.datnsch{
+    font-size: 25px;
+}
+
+.knt{
+    font-size: 25px;
+}
+
+.impMini:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.agbMini:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.datnschMini:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.KntMini:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.copyright{
+    text-align: right;
+    margin-top: -25px;
+    margin-right: 20px;
+}
+
+.DATEN{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 40px;
+}
+
+.DATEN2{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 40px;
+}
+
+.APPS{
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+    margin-top: 125px;
+    margin-left: 15px;
+}
+
+.APPS2{
+    display: flex;
+    justify-content: left;
+    gap: 100px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+.igB{
+    background-color: tomato;
+    border: none;
+}
+
+.XB{
+    background-color: tomato;
+    border: none;
+}
+
+.ytB{
+    background-color: tomato;
+    border: none;
+}
+
+.fbB{
+    background-color: tomato;
+    border: none;
+}
+
+.igB:hover{
+    background-color: #e1306c;
+}
+
+.XB:hover{
+    background-color: blue;
+}
+
+.ytB:hover{
+    background-color: red;
+}
+
+.fbB:hover{
+    background-color: blue;
+}
+
+.ig{
+    width: 50px;
+    height: 50px;
+}
+
+.X{
+    width: 50px;
+    height: 50px;
+}
+
+.yt{
+    width: 50px;
+    height: 50px;
+}
+
+.fb{
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+    border: blue 1px solid;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: running;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+  .main2{
+    border: 1px blue solid;
+    height: 3000px;
+    width: 1200px;
+    margin-left: 350px;
+  }
+
+  .partner{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    margin-top: 35px;
+
+    font-family: "Protest Strike", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 1px blue;
+    font-size: 57px;
+  }
